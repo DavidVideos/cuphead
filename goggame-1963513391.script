@@ -1,0 +1,32 @@
+{
+    "actions": [
+        {
+            "install": {
+                "action": "savePath", 
+                "arguments": {
+                    "savePath": "{userappdata}/Cuphead", 
+                    "type": "folder"
+                }
+            }, 
+            "languages": [
+                "*"
+            ], 
+            "name": "saveFolders"
+        }, 
+        {
+            "install": {
+                "action": "setRegistry", 
+                "arguments": {
+                    "root": "HKEY_CURRENT_USER", 
+                    "saveGameData": true, 
+                    "subkey": "Software\\Studio MDHR\\Cuphead"
+                }
+            }, 
+            "languages": [
+                "*"
+            ], 
+            "name": "registryKey1"
+        }
+    ], 
+    "productId": "1963513391"
+}

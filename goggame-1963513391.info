@@ -1,0 +1,33 @@
+{
+    "buildId": "50555487023366730", 
+    "clientId": "50555459027037412", 
+    "gameId": "1963513391", 
+    "language": "English", 
+    "languages": [
+        "en"
+    ], 
+    "name": "Cuphead", 
+    "playTasks": [
+        {
+            "category": "game", 
+            "isPrimary": true, 
+            "languages": [
+                "*"
+            ], 
+            "name": "Cuphead", 
+            "path": "Cuphead.exe", 
+            "type": "FileTask"
+        }, 
+        {
+            "category": "document", 
+            "languages": [
+                "*"
+            ], 
+            "link": "http://www.gog.com/support/cuphead", 
+            "name": "Support", 
+            "type": "URLTask"
+        }
+    ], 
+    "rootGameId": "1963513391", 
+    "version": 1
+}
